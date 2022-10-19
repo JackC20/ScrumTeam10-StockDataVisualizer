@@ -6,6 +6,7 @@ print("Chart Types\n-----------\n1. Bar\n2. Line\n")
 while(True):
     try:
         chartType = int(input("Enter the chart type you want (1, 2): "))
+        # Checks if the chart type is valid
         if chartType != 1 and chartType != 2:
             print("Enter a 1 or 2 for chart type")
             continue
